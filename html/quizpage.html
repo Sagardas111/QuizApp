@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title>Play Quiz @S'D</title>
+				<link rel="stylesheet" href="../css/style.css">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+				<h1 class="name">Play Quiz @S'D</h1>
+				<!-- main container -->
+				<div class="main-box">
+								<!-- question and timer section -->
+								<div class="heading">
+												<div>
+										   	<h2>Question comes here</h2>	
+						    		</div>
+					    			<div class="timer">
+											  	<i class="fas fa-history" id="timer"></i>
+											  	<p id="watch">15</p>
+					    			</div>
+								</div>
+							
+								<div class="option-box">
+					<!-- radio, optionns and right mark-->
+												<ul class="option-list">
+															<li class="options">
+																			<input type="radio" name="answer" class="answer" id="answer1">
+																			<lebel for="answer1" class="option" id="option1">Option 1</lebel>
+																			<i class="fas fa-check"></i>
+															</li>	
+															<li class="options">
+																			<input type="radio" name="answer" class="answer" id="answer2">
+																			<lebel for="answer2" class="option" id="option2">Option 2</lebel>
+																			<i class="fas fa-check"></i>
+															</li>	
+															<li class="options">
+																			<input type="radio" name="answer" class="answer" id="answer3">
+																			<lebel for="answer3" class="option" id="option3">Option 3</lebel>
+																			<i class="fas fa-check"></i>
+															</li>	
+															<li class="options">
+																			<input type="radio" name="answer" class="answer" id="answer4">
+																			<lebel for="answer4" class="option" id="option4">Option 4</lebel>
+																			<i class="fas fa-check"></i>
+															</li>	
+												</ul>
+												<!-- submit and next button -->
+												<div class="buttons">
+																<div class="question-no">
+																				<p id="question-index">1 of 10 questions.</p>
+																</div>
+																<button class="submit">Submit</button>	
+													   <button class="next">Next</button>			
+												</div>
+															
+												<p id="caution">Please select an option.</p>
+												<!-- coloured time border -->
+												<div class="color-border">
+																
+												</div>
+												<!-- scoreboard box section -->
+												<div class="ans-box">
+																<div class="score">			
+																</div>
+												<button class="btn" onclick="location.reload()">Start Again</button>
+						    		</div>
+								</div>
+				</div>
+				<!-- footer with my name and link -->
+				<div class="footer">
+						<code>Developed by <a href="https://www.linkedin.com/in/sagar-das-811161203" target="_blank">Sagar Das</a></code>	
+				</div>
+				
+				
+				<script src="../js/script.js"></script>
+</body>
+</html>
